@@ -26,9 +26,9 @@ def pow():
 
 a = int(input("enter first number: "))
 b = int(input("enter second number: "))
-print("choose any option from: ")
+print("choose any operation from: ")
 print(" add\t sub\t mul\t div\t pow")
-func = input("enter the function: ")
+func = input("name the operation: ")
 print("=============Code=================")
 if func == "add":
     add()
